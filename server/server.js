@@ -3,7 +3,7 @@
 const {chats} = require ('./data/data')
 
 app.get('/api/chat',(req,res)=>{
-    
+    console.log('called');
 res.send(chats)
 
 })
