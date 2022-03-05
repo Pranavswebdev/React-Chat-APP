@@ -1,0 +1,42 @@
+.land{
+
+position: relative;
+width: 100%;
+height:100vh;
+
+}
+
+.landingImage{
+
+  
+
+}
+
+.landingImage::after{
+
+  width: 100%;
+    height: 100;
+    object-fit:cover;
+    position: absolute;
+
+}
+
+.land_title{
+position: absolute;
+bottom: 45%;
+left: 16%;
+color: white;
+font-size: 15rem;
+padding: 15px;
+
+}
+
+.coverdiv{
+
+position: absolute;
+width: 1440px;
+height: 1182px;
+left: -8px;
+top: -175px;
+background: linear-gradient(179.01deg, rgba(0, 0, 0, 0) -24.95%, rgba(0, 0, 0, 0.329356) 49.95%, #000000 84.76%);
+}

@@ -170,7 +170,7 @@ const itemData = [
 
 function HomePage() {
   return (
-    <Container maxWidth="xl">
+ 
 
          
       <Grid container justifyContent={"center"}>
@@ -244,7 +244,7 @@ function HomePage() {
           </Box>
         </Grid>
       </Grid>
-    </Container>
+ 
   );
 }
 

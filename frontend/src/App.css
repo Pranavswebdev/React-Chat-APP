@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Work+Sans:wght@300&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto:ital,wght@1,500&family=Work+Sans:wght@300&display=swap');
 
 body{
 margin: 0%;
 padding: 0%;
 }
 
+
 .App {
 
+box-sizing: border-box;
 min-height:100vh ;
 min-width: 100vh;
 display:flex ;
-background: rgb(43, 43, 43);
-background-size: cover;
-background-position: center center;
+margin: 0%;
+padding: 0%;
+background: rgb(255, 255, 255);
+
+font-family: 'Montserrat', sans-serif;
+
 }
+
+
 
 
 
